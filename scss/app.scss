@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+// font-family: 'IBM Plex Serif', serif;
+// font-family: 'Montserrat', sans-serif;
+
+@import "/node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+
+
+
+
+
+
+$font-family-sans-serif:'Montserrat', sans-serif;
+
+$navbar-nav-link-padding-x: 1.5rem;    // navbar link padding
+
+$secondary: rgba(242, 242, 242, 1);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$success:rgb(22, 186, 22);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// book logo size
+.brand-logo{
+    font-size: 2rem;
+}
+
+.image-collap{
+    
+    margin-left: -10px;
+}
